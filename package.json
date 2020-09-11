@@ -1,5 +1,5 @@
 {
-  "name": "@kafkajs/confluent-schema-registry",
+  "name": "@lookio/confluent-schema-registry",
   "version": "1.0.5",
   "main": "dist/index.js",
   "description": "ConfluentSchemaRegistry is a library that makes it easier to interact with the Confluent schema registry, it provides convenient methods to encode, decode and register new schemas using the Apache Avro serialization format.",
@@ -7,9 +7,12 @@
     "confluent schema registry",
     "kafka"
   ],
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@lookio"
+  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/kafkajs/confluent-schema-registry.git"
+    "url": "https://github.com/lookio/confluent-schema-registry.git"
   },
   "scripts": {
     "prepare:release": "./pipeline/prepareRelease.sh",
